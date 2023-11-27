@@ -15,7 +15,7 @@ export default function Dropdown() {
     <nav className="w-full mb-5">
         {/* Dropdown */}
         <div className="md:hidden font-mono text-xl flex flex-col w-16">
-            <button className=" flex hover:underline decoration-white decoration-2" onClick={DropDownToggle}>{isOpen ? "<-" : "->"}</button>
+            <button className=" flex hover:text-red-500" onClick={DropDownToggle}>{isOpen ? "<-" : "->"}</button>
             {isOpen && (
                 <div>
                     <Link href={""} className="hover:text-red-500">
