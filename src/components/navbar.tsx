@@ -1,11 +1,10 @@
 import Link from 'next/link'
 
-
 export default function Navbar() {
   return (
-    <nav className="w-full">
+    <nav className="w-full mb-5">
         {/* Full Navbar */}
-        <div className="hidden md:flex font-mono h-fit text-xl flex flex-col md:flex-row gap-8 justify-between pb-10">
+        <div className="hidden md:flex font-mono h-fit text-xl flex flex-col md:flex-row gap-8 justify-between">
             <div className="w-fit text-xl flex gap-8">
                 <Link href={""} className="hover:underline decoration-red-500 decoration-2">
                     <h1>Home</h1>
