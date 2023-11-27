@@ -12,7 +12,7 @@ export default function Dropdown() {
     }
 
   return (
-    <nav className="w-full">
+    <nav className="w-full mb-5">
         {/* Dropdown */}
         <div className="md:hidden font-mono text-xl flex flex-col w-16">
             <button className=" flex hover:underline decoration-red-500 decoration-2" onClick={DropDownToggle}>{isOpen ? "<-" : "->"}</button>

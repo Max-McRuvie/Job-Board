@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Navbar() {
   return (
-    <nav className="w-full mb-5">
+    <nav className="w-full">
         {/* Full Navbar */}
         <div className="hidden md:flex font-mono h-fit text-xl flex flex-col md:flex-row gap-8 justify-between">
             <div className="w-fit text-xl flex gap-8">
