@@ -1,21 +1,15 @@
 import Image from 'next/image'
 import Navbar from '@/components/navbar'
-import Dropdown from '@/components/dropdown'
 
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-12">
         <Navbar/> {/* Regular Navbar */}
-        <Dropdown/> {/* Dropdown version of Navbar (for small screens) */}
-
-        
-        
 
         {/* <div className="mb-22 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
           <h1>Beans</h1>
         </div> */}
-
 
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
